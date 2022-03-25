@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "STUDIO FIX FLUID SPF 15",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_M6JC02_640x600_0.jpg",
+    "price": "36",
+    "category": "Foundation"
+  },
+  {
+    "id": 2,
+    "name": "STUDIO FIX POWDER FOUNDATION",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_M51028_640x600_0.jpg",
+    "price": "36",
+    "category": "Foundation"
+  },
+  {
+    "id": 3,
+    "name": "MAC EYEBROW GEL",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SLEH01_640x600_0_NA.jpg",
+    "action": "Semi-Automatic",
+    "price": "10",
+    "category": "Eyebrow gel"
+  },
+  {
+    "id": 4,
+    "name": "STUDIO FIX LIQUID FACE AND BODY FOUNDATION",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_MWKR05_640x600_0.jpg",
+    "price": "42",
+    "category": "Foundation"
+  },
+  {
+    "id": 5,
+    "name": "3D GLITTER TEXTURE",
+    "img": "https://www.maccosmetics.com/media/export/cms/collections/visual_arts/visual_arts_guide_dazzleshadow.jpg",
+    "price": "20",
+    "category": "Eye shadow"
+  },
+  {
+    "id": 6,
+    "name": "LUSTREGLASS SHEER-SHINE LIPSTICK",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SMXF38_640x600_0.jpg",
+    "price": "22",
+    "category": "Lipstick"
+  },
+  {
+    "id": 7,
+    "name": "LIPGLASS",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_S3HT22_640x600_0.jpg",
+    "price": "19",
+    "category": "Lipstick"
+  },
+  {
+    "id": 8,
+    "name": "LOVE ME LIPSTICK",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
+    "price": "570",
+    "category": "Lipstick"
+  },
+  {
+    "id": 9,
+    "name": "LOVE ME LIPSTICK",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
+    "price": "570",
+    "category": "Lipstick"
+  },
+  {
+    "id": 10,
+    "name": "LOVE ME LIPSTICK",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
+    "price": "570",
+    "category": "Lipstick"
+  },
+  {
+    "id": 11,
+    "name": "LOVE ME LIPSTICK",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
+    "price": "570",
+    "category": "Lipstick"
+  },
+  {
+    "id": 12,
+    "name": "LOVE ME LIPSTICK",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
+    "price": "570",
+    "category": "Lipstick"
+  },
+  {
+    "id": 13,
+    "name": "LOVE ME LIPSTICK",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
+    "price": "570",
+    "category": "Lipstick"
+  }
+]
