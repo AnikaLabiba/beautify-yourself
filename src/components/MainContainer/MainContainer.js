@@ -28,7 +28,6 @@ const MainContainer = () => {
 
     // generating random index
     const selectRandomOne = () => {
-        // document.getElementById('selected-item').textContent = ''
         const randomIndex = Math.floor(Math.random() * cart.length)
         const randomName = cart[randomIndex].name
         setCart([])
