@@ -25,10 +25,6 @@ const MainContainer = () => {
             alert('You can choose only 4 items.')
         }
     }
-    const clearCart = () => {
-        setCart([])
-        setRandomOne([])
-    }
 
     // generating random index
     const selectRandomOne = () => {
@@ -38,8 +34,11 @@ const MainContainer = () => {
         setCart([])
         setRandomOne(randomName);
     }
-
-
+    // clearing cart
+    const clearCart = () => {
+        setCart([])
+        setRandomOne([])
+    }
 
     return (
         <div className='container'>

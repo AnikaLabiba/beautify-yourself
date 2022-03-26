@@ -3,8 +3,6 @@ import './Cart.css'
 
 const Cart = ({ cart, selectRandomOne, randomOne, clearCart }) => {
 
-
-
     return (
         <div>
             <div id='card-item'>
