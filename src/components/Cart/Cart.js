@@ -3,10 +3,8 @@ import './Cart.css'
 
 const Cart = ({ cart, selectRandomOne, randomOne, setCart }) => {
     const clearCart = () => {
-        console.log('clicked')
-        document.getElementById('card-item').textContent = ''
         setCart([])
-
+        randomOne = ''
     }
 
 
