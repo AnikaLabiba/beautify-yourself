@@ -1,0 +1,14 @@
+.theory-ans{
+    margin: 50px 60px;
+}
+.theory-ans h2{
+    text-align: center;
+}
+.theory-ans p{
+    font-size: 19px;
+    margin-top: 20px;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 25px;
+    border-radius: 8px;
+}
