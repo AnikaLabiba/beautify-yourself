@@ -6,18 +6,36 @@ import './MainContainer.css'
 const MainContainer = () => {
     const [products, setProducts] = useState([])
     const [cart, setCart] = useState([])
+    const [randomOne, setRandomOne] = useState([])
 
+    // loading data
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
 
+    // handling add to cart
     const haldleAddToCart = (product) => {
-        const newCart = [...cart, product]
-        setCart(newCart)
-        //console.log(newCart)
+        if (cart.length <= 3) {
+            const newCart = [...cart, product]
+            setCart(newCart)
+        }
+        else {
+            alert('You can choose only 4 items.')
+        }
     }
+
+    // generating random index
+    const selectRandomOne = () => {
+        document.getElementById('selected-item').textContent = ''
+        const randomIndex = Math.floor(Math.random() * cart.length)
+        const randomName = cart[randomIndex].name
+        setRandomOne(randomName);
+    }
+
+
+
     return (
         <div className='container'>
 
@@ -33,8 +51,17 @@ const MainContainer = () => {
                     }
                 </div>
             </div>
-            <div className="cart-container">
-                <Cart cart={cart}></Cart>
+            <div>
+                <div className="cart-container">
+                    <h3>Selecte Items:</h3>
+                    <div>
+                        <Cart cart={cart}
+                            selectRandomOne={selectRandomOne}
+                            randomOne={randomOne}
+                            setCart={setCart}
+                        ></Cart>
+                    </div>
+                </div>
             </div>
         </div>
     );
