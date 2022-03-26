@@ -18,9 +18,15 @@ const MainContainer = () => {
     // handling add to cart
     const haldleAddToCart = (product) => {
         if (cart.length <= 3) {
-            const newCart = [...cart, product]
-            setRandomOne([])
-            setCart(newCart)
+            if (cart.indexOf(product) === -1) {
+                const newCart = [...cart, product]
+                setRandomOne([])
+                setCart(newCart)
+            }
+            else {
+                alert('This is already selected')
+            }
+
         }
         else {
             alert('You can choose only 4 items.')
@@ -33,8 +39,9 @@ const MainContainer = () => {
         const randomIndex = Math.floor(Math.random() * cart.length)
         const randomProduct = cart[randomIndex]
         randomArray.push(...randomArray, randomProduct)
-        setCart([])
         setRandomOne(randomArray);
+        setCart([])
+
     }
     // clearing cart
     const clearCart = () => {
