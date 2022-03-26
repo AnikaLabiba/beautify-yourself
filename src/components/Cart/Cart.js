@@ -1,11 +1,8 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = ({ cart, selectRandomOne, randomOne, setCart }) => {
-    const clearCart = () => {
-        setCart([])
-        randomOne = ''
-    }
+const Cart = ({ cart, selectRandomOne, randomOne, clearCart }) => {
+
 
 
     return (

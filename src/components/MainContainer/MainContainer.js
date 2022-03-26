@@ -25,12 +25,17 @@ const MainContainer = () => {
             alert('You can choose only 4 items.')
         }
     }
+    const clearCart = () => {
+        setCart([])
+        setRandomOne([])
+    }
 
     // generating random index
     const selectRandomOne = () => {
-        document.getElementById('selected-item').textContent = ''
+        // document.getElementById('selected-item').textContent = ''
         const randomIndex = Math.floor(Math.random() * cart.length)
         const randomName = cart[randomIndex].name
+        setCart([])
         setRandomOne(randomName);
     }
 
@@ -56,6 +61,7 @@ const MainContainer = () => {
                     <h3>Selecte Items:</h3>
                     <div>
                         <Cart cart={cart}
+                            clearCart={clearCart}
                             selectRandomOne={selectRandomOne}
                             randomOne={randomOne}
                             setCart={setCart}
