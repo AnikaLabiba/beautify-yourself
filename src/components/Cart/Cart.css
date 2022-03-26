@@ -1,9 +1,21 @@
-.btn{
+.cart-item{
+     display: flex;
+     align-items: center;
+     margin-top: 5px;
+     /* width: 30%; */
+ }
+.cart-img{
+     width: 17%;
+     height: 15%;
+     border-radius: 50px;
+ }
+ .btn{
     background-color:  rgb(117, 129, 224);
     border: none;
     padding: 9px;
     color: white;
     margin-left: 5px;
+    margin-top: 10px;
     border-radius: 7px;
 }
 .btn:hover{

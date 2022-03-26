@@ -58,37 +58,30 @@
   },
   {
     "id": 9,
-    "name": "LOVE ME LIPSTICK",
-    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
-    "price": "570",
-    "category": "Lipstick"
+    "name": "FUNDATION BRUSH",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_S7H101_640x600_0.jpg",
+    "price": "45",
+    "category": "Bursh"
   },
   {
     "id": 10,
-    "name": "LOVE ME LIPSTICK",
-    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
-    "price": "570",
-    "category": "Lipstick"
+    "name": "BRUSH CLEANER",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_M86F01_640x600_0.jpg",
+    "price": "17",
+    "category": "Brush"
   },
   {
     "id": 11,
-    "name": "LOVE ME LIPSTICK",
-    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
-    "price": "570",
-    "category": "Lipstick"
+    "name": "PRO EYE PALETTE: THE ROMANTIC",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_S5NG04_640x600_0.jpg",
+    "price": "40",
+    "category": "Eye shadow"
   },
   {
     "id": 12,
-    "name": "LOVE ME LIPSTICK",
-    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
-    "price": "570",
-    "category": "Lipstick"
-  },
-  {
-    "id": 13,
-    "name": "LOVE ME LIPSTICK",
-    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SG7345_640x600_0.jpg",
-    "price": "570",
-    "category": "Lipstick"
+    "name": "STUDIO FIX CONTOUR PALETTE LIGHT/MEDIUM",
+    "img": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SFAX01_640x600_0.jpg",
+    "price": "41",
+    "category": "Face"
   }
 ]

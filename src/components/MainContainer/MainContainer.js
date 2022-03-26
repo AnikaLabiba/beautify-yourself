@@ -19,6 +19,7 @@ const MainContainer = () => {
     const haldleAddToCart = (product) => {
         if (cart.length <= 3) {
             const newCart = [...cart, product]
+            setRandomOne([])
             setCart(newCart)
         }
         else {
@@ -28,10 +29,12 @@ const MainContainer = () => {
 
     // generating random index
     const selectRandomOne = () => {
+        const randomArray = []
         const randomIndex = Math.floor(Math.random() * cart.length)
-        const randomName = cart[randomIndex].name
+        const randomProduct = cart[randomIndex]
+        randomArray.push(...randomArray, randomProduct)
         setCart([])
-        setRandomOne(randomName);
+        setRandomOne(randomArray);
     }
     // clearing cart
     const clearCart = () => {
